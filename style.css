@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(#2e77ff, #0d47a1);
+    background-color: burlywood;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .box {
-    background: white;
+    background: rgb(188, 188, 188);
     padding: 40px 25px;
     width: 100%;
     max-width: 380px;
@@ -41,9 +41,9 @@ button {
     font-weight: bold;
 }
 
-#plus { background: #4caf50; color: white; }
-#minus { background: #26c6da; color: white; }
-#reset { background: #757575; color: white; }
+#plus { background: #8a968a; color: white; }
+#minus { background: #40b991; color: white; }
+#reset { background: #7b1b5b; color: white; }
 
 button:active {
     transform: scale(0.92);
