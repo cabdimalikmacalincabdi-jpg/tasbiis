@@ -6,6 +6,7 @@ const emojis = ["😀","🔥","🎉","🤲","✨","💯","🕊️","😊","🥰"
 
 document.getElementById("plus").addEventListener("click", () => {
     num++;
+    
     updateUI();
 });
 
